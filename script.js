@@ -11,13 +11,3 @@ let randomMsgPart2 = msgPart2[Math.floor(Math.random()*msgPart2.length)];
 
 //Randomly Picks a Component From The Third Array of Messages
 let randomMsgPart3 = msgPart3[Math.floor(Math.random()*msgPart3.length)];
-
-function TestMessages() {
-    //Logs Each Variable
-    console.log(randomMsgPart1);
-    console.log(randomMsgPart2);
-    console.log(randomMsgPart3);
-}
-
-//Calls a Function To Test if the Messages are Generating Correctly
-TestMessages();
